@@ -1,0 +1,3 @@
+/**
+ * Global information will come.
+ */

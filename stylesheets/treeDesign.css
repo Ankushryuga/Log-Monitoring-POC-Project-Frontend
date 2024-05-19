@@ -1,0 +1,135 @@
+
+.rootDiv {
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rootInput {
+    width: 70px;
+}
+
+.subRoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: -18px;
+    height: 30px; 
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 540px;
+    /* justify-content: center; */
+}
+
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 320px;
+}
+
+.searchBox .searchInput {
+    border: none;
+    outline: none;
+    /* margin-left: 5px; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rootLabel{
+    width: 70%;
+}
+
+
+.searchBox .searchAlign{
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.searchBox .filterfor{
+    border:black;
+    background-color: rgb(224, 224, 224);
+    justify-content: center;
+    margin: 0;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .verticalContainer {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    margin-right: 40px;
+}
+
+.verticalLine {
+    border-left: 1px solid black;
+    height: 30px; 
+    
+}
+
+.horizontalLine {
+    border-top: 1px solid black;
+    width: 50px;
+} */
+
+
+
+.verticalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.verticalLine {
+    border-left: 1px solid black;
+    height: 30px; /* Adjust height as needed */
+    margin-left: 10px; /* Align with the center of the searchBox */
+}
+
+.horizontalContainer {
+    display: flex;
+    align-items: center;
+}
+
+.horizontalLine {
+    border-top: 1px solid black;
+    width: 45px; /* Adjust width as needed */
+    margin-left: 10px; /* Align with vertical line */
+}
+
+.children{
+    padding-left: 50px;
+    margin: 0px;
+}
+
+
+.children .filterfor {
+    border:black;
+    background-color: rgb(224, 224, 224);
+    justify-content: center;
+    margin: 0;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

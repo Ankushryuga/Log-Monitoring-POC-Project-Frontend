@@ -1,0 +1,122 @@
+/* General form styling */
+
+/* Add this to your CSS to center the form */
+/* Ensure the body has no margin and the form container takes full viewport height */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+/* Flexbox container for centering the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* White background */
+    margin-left: 100px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff; /* Light grey background */
+    padding: 20px;
+    width: 100%;
+    /* min-height: fit-content; */
+    max-width: 480px; /* Maximum width of the form */
+    margin: 0 auto; /* Centering form horizontally */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    /* Rest of your form styles */
+    /* min-height: 500px; */
+    /* height: fit-content; */
+     
+    /* display: flex; Enable flexbox */
+    /* flex-direction: column;Arrange children in a column */
+    /* justify-content: center; Center items vertically */
+    /* align-items: center; Center items horizontally */
+}
+
+/* Rest of your CSS */
+
+
+/* Rest of your CSS remains the same */
+
+/* Style for the 'Sign in to your account' text */
+form > div:first-child {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d3d3; /* Light grey outline */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Checkbox and 'Remember me' styling */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Link styling */
+a {
+    color: #324576; /* Blue text */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #324576;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #324576; /* Blue background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #324576; /* Darker blue background on hover */
+}
+
+/* 'Don't have an account' text styling */
+form > div:last-child {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.remember-me-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    /* justify-content: space-between; Spreads out the checkbox and the link */
+}
+
+.remember-me-container input[type="checkbox"] {
+    margin-right: 10px; /* Adds some space between the checkbox and the label */
+}
+
+.remember-me-container a {
+    margin-left: 180px; /* Adds some space before the 'Forgot Password?' link */
+}
